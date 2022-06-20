@@ -1,5 +1,29 @@
-.container {
-  margin: 200px;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-image: url("https://images7.alphacoders.com/458/thumb-1920-458233.jpg");
+  background-blend-mode: lighten;
+  background-color: #020202;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 600px;
+}
+
+.nav-text {
+  min-height: 600px;
+}
+
+a[href="#mysection"] {
+  bottom: 4%;
+  z-index: 9999;
+  font-size: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
