@@ -134,10 +134,18 @@ a[href="#mysection"] {
 .card-text {
     color: #67696C;
 }
+.footer{
+    background-color: #34495e;
+    padding-bottom: 15%;
+    margin-bottom: 5%;
+}
 
 .for-flex {
-    a {
-        display: flex;
-        flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+    svg{
+        color:#be9e21;
     }
 }

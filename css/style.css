@@ -118,9 +118,20 @@ a[href="#mysection"] {
   color: #67696C;
 }
 
-.for-flex a {
+.footer {
+  background-color: #34495e;
+  padding-bottom: 15%;
+  margin-bottom: 5%;
+}
+
+.for-flex {
   display: flex;
   flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+}
+.for-flex svg {
+  color: #be9e21;
 }
 
 /*# sourceMappingURL=style.css.map */
