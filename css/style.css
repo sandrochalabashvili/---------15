@@ -105,4 +105,22 @@ a[href="#mysection"] {
   border: 5px red;
 }
 
+.for-icon-and-text .text-div {
+  color: #67696C;
+  display: flex;
+  justify-content: space-between;
+}
+.for-icon-and-text .icons {
+  display: block;
+}
+
+.card-text {
+  color: #67696C;
+}
+
+.for-flex a {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /*# sourceMappingURL=style.css.map */

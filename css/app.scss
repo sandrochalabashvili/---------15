@@ -6,14 +6,17 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-.text-color-for-h1{
-    h1{
-        color:#67696C ;
+
+.text-color-for-h1 {
+    h1 {
+        color: #67696C;
     }
-    p{
-        color:#67696C ;
+
+    p {
+        color: #67696C;
     }
 }
+
 .nav-logo {
     a {
         font-weight: bold;
@@ -72,41 +75,69 @@ a[href="#mysection"] {
         text-decoration: none;
         color: #63631d;
     }
-    h3{
+
+    h3 {
         color: #67696C;
     }
-    p{
+
+    p {
         color: #67696C;
     }
 }
-.galery img{
-    height:250px;
+
+.galery img {
+    height: 250px;
     object-fit: cover;
-  
-  }
-  
-  .carousel-inner{
-      height: 350px;
-      background-image: url('https://usebootstrap.com/preview-no-frame/baker/img/bg.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: lighten;
-      background-color: RGBA(73, 84, 105, 0.61);
-      min-height: 390px;
-}  
-  .carousel-item img{
-       margin-top: 80px;
-       margin-bottom: 50px;
-       width: 80px;
-       height: 80px;
-       border-radius: 50%;
-       border:4px solid #fff;
-  }
-  
-  .carousel-item{
-      color: #fff;
-  }
-  .col div{
+
+}
+
+.carousel-inner {
+    height: 350px;
+    background-image: url('https://usebootstrap.com/preview-no-frame/baker/img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: lighten;
+    background-color: RGBA(73, 84, 105, 0.61);
+    min-height: 390px;
+}
+
+.carousel-item img {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+
+.carousel-item {
+    color: #fff;
+}
+
+.col div {
     border: 5px red;
-  }
+}
+
+.for-icon-and-text {
+    .text-div {
+        color: #67696C;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .icons {
+        display: block;
+    }
+}
+
+.card-text {
+    color: #67696C;
+}
+
+.for-flex {
+    a {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
